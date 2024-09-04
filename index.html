@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="project-title">Calculator</h1>
+        <div class="btn-change-theme">
+            <button class="theme-change"></button>
+        </div>
+        <div class="input-lines">
+            <input class="input-line" type="text" id="display" placeholder="0" readonly>
+        </div>
+        <div class="calc">
+            <div class="top-button btn">
+                <button class="btn-del">%</button>
+                <button class="btn-del">CE</button>
+                <button class="btn-del">C</button>
+                <button class="delF"><- </button>
+            </div>
+
+            <div class="top-of-numbers btn">
+                <button class="btn-1x">1/x</button>
+                <button class="btn-up">x^2</button>
+                <button class="radical"> √a</button>
+                <button class="specA divide"><span>/</span></button>
+            </div>
+            <div class="top-of-numbers btn">
+                <button class="btn-number">7</button>
+                <button class="btn-number">8</button>
+                <button class="btn-number">9</button>
+                <button class="specA multiply"><span>x</span></button>
+            </div>
+            <div class="middle-of-numbers btn ">
+                <button class="btn-number">4</button>
+                <button class="btn-number">5</button>
+                <button class="btn-number">6</button>
+                <button class="specA plus"><span>+</span></button>
+            </div>
+            <div class="down-of-numbers btn ">
+                <button class="btn-number">1</button>
+                <button class="btn-number">2</button>
+                <button class="btn-number">3</button>
+                <button class="specA minus"><span>-</span></button>
+            </div>
+            <div class="footer-of-numbers btn ">
+                <button class="sign">+/-</button>
+                <button class="btn-number">0</button>
+                <button class="btn-number">.</button>
+                <button class="specB result"><span>=</span></button>
+            </div>
+        </div>
+
+        <script src="./scripts/main.js"></script>
+</body>
+
+</html>

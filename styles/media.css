@@ -1,0 +1,11 @@
+@media(max-width: 530px) {
+    .project-title {
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 410px) {
+    .project-title {
+        font-size: 4.3rem;
+    }
+}
